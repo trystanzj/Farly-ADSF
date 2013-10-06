@@ -1,0 +1,34 @@
+# Farly logging log4perl configuration file and log file directory
+
+logging {
+	log_dir = /var/log/farly
+	conf = /etc/farly/logging.conf
+
+
+# object storage configuration
+
+object_storage {
+    pid_dir = /var/run/farly
+    dir = /var/db/farly
+    db_password = 1234
+}
+
+# List firewalls to import configurations from
+
+firewall_list {
+	file = /etc/farly/firewalls.txt
+}
+
+# the firewall network topology CSV file
+# hostname, network, interface
+
+network_topology {
+	file = topology.csv
+}
+
+# the list of internal networks which Farly can scan
+# for active hosts and services
+
+internal_networks {
+	file = /etc/farly/networks.txt
+}

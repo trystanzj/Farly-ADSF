@@ -1,0 +1,19 @@
+Farly Automated Decision Support Framework
+------------------------------------------
+Farly ADSF documentation is available at www.farly.net
+
+
+Version History
+---------------
+0.26 - October 2013
+  - First release of the Farly Automated Decision Support Framework
+
+
+Farly ADSF uninstall
+--------------------
+rm -f /usr/local/bin/f_*.pl
+rm -f /usr/local/share/perl5/Farly.pm
+rm -rf /usr/local/share/perl5/Farly/
+rm -rf /var/log/farly/
+rm -rf /var/db/farly/
+rm -rf /etc/farly/

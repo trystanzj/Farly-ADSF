@@ -1,0 +1,5 @@
+frontdoor,0.0.0.0 0.0.0.0,outside
+frontdoor,192.168.1.0/24,inside
+backdoor,0.0.0.0 0.0.0.0,outside
+backdoor,172.16.10.0/24,apps
+backdoor,10.1.2.0/24,data
