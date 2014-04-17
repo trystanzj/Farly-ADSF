@@ -295,10 +295,10 @@ Remove all rules on all firewalls that reference inactive services:
 
 Remove all rules on "test_firewall_1" that reference inactive hosts:
 
-    f_sync_services.pl --hostname test_firewall_1 --hosts
+    f_sync.pl --hostname test_firewall_1 --hosts
 
 Remove all rules on "test_firewall_1" that reference inactive services:
 
-    f_sync_services.pl --hostname test_firewall_1 --services
+    f_sync.pl --hostname test_firewall_1 --services
 
 =cut
